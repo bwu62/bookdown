@@ -1,3 +1,18 @@
+# CHANGES IN bookdown VERSION 0.44
+
+- Figure numbering is now correctly working in HTML with Pandoc 3, when Markdown syntax is used to include images (thanks, @N0rbert, #1467).
+
+
+# CHANGES IN bookdown VERSION 0.43
+
+- Support `split_by` for section level higher than `2` (i.e., `##` sections) in `gitbook` (thanks, @katrinabrock #1490, @lcougnaud #1346 #1347).
+
+# CHANGES IN bookdown VERSION 0.42
+
+- New option in `gitbook`'s font settings menu to control line spacing (thanks, @hayden-MB, #1479).
+
+- New configuration setting `include_md` to control whether the input search includes `.md` source files in addition to `.Rmd` (thanks, @katrinabrock #1483, @kylelundstedt #956).
+
 # CHANGES IN bookdown VERSION 0.41
 
 - New `mathjax-config` option for `bs4_book` and `gitbook` to control MathJax config string (thanks, @bwu62, #1472). The option can be set either in the YAML metadata or as a variable in `pandoc_args`. Currently tested and supported settings:
